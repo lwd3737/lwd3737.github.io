@@ -1,0 +1,119 @@
+html, body{
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+ul{
+    list-style:none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.box{
+    border: 1px solid rgba(0,0,0,0.03);
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+header{
+    padding: 10px 0 0 40px;
+}
+
+#logo-wrapper{
+    display:inline-block;
+}
+
+#logo{
+    width:70px;
+}
+
+section, footer{
+    padding:30px;
+    margin: 10px 50px 10px 50px;
+}
+
+section{
+   
+}
+
+#personal-info{
+    display:inline-block;
+    width:40%;
+}
+
+#profile-img{
+    width:80px;
+    height:80px;
+    margin: 10px
+}
+
+#my-name{
+    font-size: 25px;
+    font-weight: bold;  
+    margin-bottom: 3px;
+}
+
+#my-address{
+    margin-bottom: 30px;
+    font-size:14px;
+}
+
+#my-email{
+    color:#607d8b;
+    margin-bottom: 20px;
+}
+
+#my-message{
+    font-size: 19px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+#my-skills{
+    display: inline-block;
+    width: 55%;
+    margin: 0;
+    position: relative;
+    bottom: 120px;
+}
+
+#my-skills .skill{
+    display: inline-block;
+    background: aliceblue;
+    padding: 5px 12px;
+    color: #03A9F4;
+    border-radius: 8px;
+    margin: 5px 3px;
+}
+
+footer > div{
+    margin-bottom: 40px;
+}
+
+.footer-title{
+    color: gray;
+    font-size: 25px;
+}
+
+.card{
+    display: inline-block;
+    width: 13%;
+    height: 190px;
+}
+
+.card-img{
+    width:100%;
+}
+
+.card-link{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+#my-blog .card-img{
+    width:100px;
+    padding: 20px 25px;
+}
